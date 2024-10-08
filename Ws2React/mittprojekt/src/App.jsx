@@ -1,17 +1,11 @@
 import { Component } from "react";
-import UIRoot from "./components/UIRoot"
+import UIRoot from './components/UTRoot'
+import './App.css';
 
 class App extends Component{
-
-  minMetod(){
-    
-  };
-
-  render() {
-
-    return ( <UIRoot /> )
+  render(){
+    return( < UIRoot />)
   }
-
 }
 
 export default App;
